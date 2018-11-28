@@ -1,0 +1,15 @@
+<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+<title><% if (pageTitle) { %> <%= pageTitle %><% } %></title>
+<script src="./assets/lib/jquery.min.js"></script>
+<script src="./assets/lib/echarts.min.js"></script>
+<script src="./assets/lib/echarts-gl.min.js"></script>
+<% if (needScripts!=null) { %>
+<% needScripts.forEach(function(item){%>
+<script src="<%=item.src %>"></script>
+<% }) %>
+<% } %>
+<script src="./assets/lib/multiple-select.js"></script>
+<script src="./assets/lib/foundation-datepicker.min.js"></script>
+<script src="./assets/lib/chartConfig.js"></script>
+<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.6&key=d23c781ccd24f47404b997f39a783b7f"></script>

@@ -1,0 +1,4 @@
+node_modules
+dist
+!/webpackTest/node_modules
+!/webpackTest/node_modules/*/dist

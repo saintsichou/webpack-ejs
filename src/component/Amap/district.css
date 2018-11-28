@@ -1,0 +1,11 @@
+.mapPolygonCenter {
+    text-align: center;
+    padding:3px 8px;
+    white-space: nowrap;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #fff;
+    background: #484d97;
+    border-radius: 12px;
+}
